@@ -14,7 +14,7 @@ app.use(cors({
   origin: "http://localhost:3000",
   credentials: true
 }));
-app.listen(8080, () => console.log("Our server is listening on port 8080... ")); // Now we're live!
+app.listen(process.env.PORT || 8080, () => console.log("Our server is listening on port ... ")); // Now we're live!
 
 // connecting to MongoDB
 const mongoURL = "mongodb+srv://zlilyoffe:161116zved@cluster0.pjel7.mongodb.net/whatsApp";
