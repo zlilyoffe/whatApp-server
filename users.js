@@ -7,7 +7,7 @@ const userSchema = new mongoose.Schema({
     lastName: String,
     picURL: String,
 });
-
+//zliliya
 module.exports.userSchema = userSchema;
 
 let User = mongoose.model("User", userSchema);
